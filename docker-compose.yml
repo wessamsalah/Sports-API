@@ -1,0 +1,27 @@
+version: "2.1"
+
+services:
+
+  sportsapi:
+    image: sport-api
+    container_name: sports-events-api
+    build: .
+    environment:
+      NODE_ENV: production
+    ports:
+      - 3000:3000
+
+  database:
+    image: mongo
+    container_name: mongo-db
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: user
+      MONGO_INITDB_ROOT_PASSWORD: pass
+    ports:
+      - 27017:27017
+
+  mongo-seed:
+    build: ./mongo-seed
+    container_name: mongo-seed
+    links:
+     - database
