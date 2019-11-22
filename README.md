@@ -1,5 +1,8 @@
 # Sports-API
-Sports Restful api using , NodeJS , Typescript Express , MongoDB , Docker , Docker-Compose 
+> Sports Restful api using , NodeJS , Typescript Express , MongoDB , Docker , Docker-Compose 
 
-Build and run the project by running
-"docker-compose up --build"
+# Sport Events API  Node.js Docker 
+ 
+To run the project, you can run:  
+
+`docker-compose up --build`
