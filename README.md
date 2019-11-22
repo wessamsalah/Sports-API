@@ -1,5 +1,5 @@
 # Sports-API
-> Sports Restful api using , NodeJS , Typescript Express , MongoDB , Docker , Docker-Compose 
+> Sports Restful api using , NodeJS , Typescript ,mongoose , Express , MongoDB , Docker , Docker-Compose 
 
 # Sport Events API  Node.js Docker 
  
